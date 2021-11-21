@@ -38,7 +38,7 @@ body {
     .header_objects_5 {
       position: absolute;
       height: 5vh;
-      top: 5vh;
+      top: calc(5vh - 270px);
       left: 70vw;
     }
 
@@ -52,8 +52,8 @@ body {
     .header_objects_7 {
       position: absolute;
       height: 25vh;
-      top: calc(-10vh + 270px);
-      left: calc(15vw - 270px);
+      top: calc(-10vh + 1540px);
+      left: calc(15vw - 1540px);
       transform: translateZ(90deg);
     }
 
@@ -66,9 +66,9 @@ body {
 
     .header_objects_9 {
       position: absolute;
-      height: 45vh;
+      height: 22vw;
       top: 25vh;
-      left: 0vw;
+      left: calc(-50vh - 270px);
     }
 
     .header_objects_10 {
@@ -103,7 +103,7 @@ body {
       position: absolute;
       height: 20.2vh;
       top: 79.8vh;
-      left: 52vw;
+      left: calc(52vw + 1600px);
     }
 
     .header_objects_15 {
