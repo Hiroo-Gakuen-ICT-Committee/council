@@ -1,0 +1,155 @@
+body {
+  font-family: fot-tsukubrdgothic-std,
+    sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+
+  .header {
+    height: 100vh;
+    width: 100vw;
+    background-color: #c7aaf5;
+    background-image: url("/public/index/images/002.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 29%;
+
+    .header_objects_1 {
+      position: absolute;
+      height: 45vh;
+      top: -20vh;
+      left: 82vw;
+    }
+
+    .header_objects_3 {
+      position: absolute;
+      height: 15vh;
+      top: 16vh;
+      left: 94vw;
+    }
+
+    .header_objects_4 {
+      position: absolute;
+      height: 11vh;
+      top: 18vh;
+      left: 78vw;
+    }
+
+    .header_objects_5 {
+      position: absolute;
+      height: 5vh;
+      top: 5vh;
+      left: 70vw;
+    }
+
+    .header_objects_6 {
+      position: absolute;
+      height: 15vh;
+      top: 5vh;
+      left: 28vw;
+    }
+
+    .header_objects_7 {
+      position: absolute;
+      height: 25vh;
+      top: -10vh;
+      left: 15vw;
+    }
+
+    .header_objects_8 {
+      position: absolute;
+      height: 35vh;
+      top: -4vh;
+      left: 3vw;
+    }
+
+    .header_objects_9 {
+      position: absolute;
+      height: 45vh;
+      top: 25vh;
+      left: 0vw;
+    }
+
+    .header_objects_10 {
+      position: absolute;
+      height: 7vh;
+      top: 58vh;
+      left: 7vw;
+    }
+
+    .header_objects_11 {
+      position: absolute;
+      height: 5.5vh;
+      top: 78vh;
+      left: 4vw;
+    }
+
+    .header_objects_12 {
+      position: absolute;
+      height: 4.7vh;
+      top: 84vh;
+      left: 13vw;
+    }
+
+    .header_objects_13 {
+      position: absolute;
+      height: 4.2vh;
+      top: 78vh;
+      left: 27vw;
+    }
+
+    .header_objects_14 {
+      position: absolute;
+      height: 20.2vh;
+      top: 79.8vh;
+      left: 52vw;
+    }
+
+    .header_objects_15 {
+      position: absolute;
+      height: 5.2vh;
+      top: 84.8vh;
+      left: 74vw;
+    }
+
+    .header_objects_16 {
+      position: absolute;
+      height: 15vh;
+      top: 84.8vh;
+      left: 79vw;
+    }
+
+    .header_objects_17 {
+      position: absolute;
+      height: 35vh;
+      top: 70.8vh;
+      left: 89vw;
+    }
+
+    .header_texts {
+      padding-top: 36vh;
+
+      h1 {
+        font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 8vh;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1vw;
+        font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 6vh;
+        line-height: 4vh;
+      }
+    }
+
+  }
+}
