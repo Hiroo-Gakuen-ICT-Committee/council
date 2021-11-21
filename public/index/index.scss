@@ -24,8 +24,8 @@ body {
     .header_objects_3 {
       position: absolute;
       height: 15vh;
-      top: 16vh;
-      left: 94vw;
+      top: calc(16vh - 270px);
+      left: calc(94vw - 270px);
     }
 
     .header_objects_4 {
@@ -45,8 +45,8 @@ body {
     .header_objects_6 {
       position: absolute;
       height: 15vh;
-      top: 5vh;
-      left: 28vw;
+      top: calc(5vh + 270px);
+      left: calc(28vw - 270px);
     }
 
     .header_objects_7 {
@@ -54,6 +54,7 @@ body {
       height: 25vh;
       top: calc(-10vh + 270px);
       left: calc(15vw - 270px);
+      transform: translateZ(90deg);
     }
 
     .header_objects_8 {
