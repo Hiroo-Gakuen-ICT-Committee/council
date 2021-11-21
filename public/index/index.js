@@ -1,8 +1,8 @@
 var object_8 = document.querySelector('.header_objects_8');
 anime({
   targets: object_8,
-  translateX: 270,
-  translateY: 270,
+  translateX: 330,
+  translateY: 330,
   delay: 400
 });
 var object_17 = document.querySelector('.header_objects_17');
