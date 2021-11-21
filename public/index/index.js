@@ -105,3 +105,32 @@ anime({
   translateX: -540,
   delay: 400
 });
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml13');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({})
+  .add({
+    targets: '.ml13 .letter',
+    translateY: [40, 0],
+    translateZ: 0,
+    opacity: [0, 1],
+    easing: "easeOutExpo",
+    duration: 1400,
+    delay: (el, i) => 600 + 30 * i
+  });
+
+var textWrapper2 = document.querySelector('.ml14');
+textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({})
+  .add({
+    targets: '.ml14 .letter',
+    translateY: [40, 0],
+    translateZ: 0,
+    opacity: [0, 1],
+    easing: "easeOutExpo",
+    duration: 1400,
+    delay: (el, i) => 1000 + 50 * i
+  });

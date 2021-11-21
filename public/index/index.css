@@ -151,3 +151,11 @@ body .header .header_texts h2 {
   margin-top: 6vh;
   line-height: 4vh;
 }
+
+body .header .header_texts .ml13 {
+  text-transform: uppercase;
+}
+
+body .header .header_texts .ml13 .letter {
+  display: inline-block;
+}
