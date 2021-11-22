@@ -143,8 +143,9 @@ body {
       height: 3vh;
       top: -50px;
       right: -50px;
-      z-index:9999;
+      z-index:999;
     }
+
 
     
 
@@ -180,6 +181,18 @@ body {
       }
 
     }
-
+    .first{
+      position: absolute;
+      font-size: 1.4vw;
+      top: 50vh;
+    width: 40vw;
+    text-align: center;
+    transform: translateY(-50%);
+    left: calc(100vw);
+    font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
   }
 }

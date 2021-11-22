@@ -68,8 +68,9 @@ anime({
 var object_18 = document.querySelector('.header_objects_18');
 anime({
   targets: object_18,
-  scale:15,
-  delay: 2200,
+  scale:[
+    { value: 15, duration: 2500, delay: 2500,}
+    ]
   
 });
 var object_14 = document.querySelector('.header_objects_14');
@@ -119,5 +120,19 @@ anime({
   targets: object_2,
   scale: 15,
   delay: 100
+});
+
+var header_texts = document.querySelector('.header_texts');
+anime({
+  targets: header_texts,
+  translateX: '-25vw',
+  delay: 3000
+});
+
+var first = document.querySelector('.first');
+anime({
+  targets: first,
+  translateX: '-50vw',
+  delay: 3600
 });
 
