@@ -194,5 +194,18 @@ body {
         font-weight: 700;
         font-style: normal;
     }
+    .second{
+      position: absolute;
+      font-size: 1.4vw;
+      top: 50vh;
+    width: 40vw;
+    text-align: center;
+    transform: translateY(-50%);
+    left: calc(100vw);
+    font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
   }
 }
