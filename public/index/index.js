@@ -120,9 +120,11 @@ anime({
   scale: 15,
   delay: 100
 });
-var object_2 = document.querySelector('.header_texts');
+
+var object_20 = document.querySelector('.header_objects_20');
 anime({
-  targets: object_2,
-  translateY: 1040,
+  targets: object_20,
+  scale: 250,
+  duration: 3000,
   delay: 3000
 });

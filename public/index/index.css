@@ -142,6 +142,22 @@ body .header .header_objects_18 {
   left: calc(3vw - 330px);
 }
 
+body .header .header_objects_19 {
+  position: absolute;
+  height: 3vh;
+  top: -50px;
+  right: -50px;
+  z-index: 9999;
+}
+
+body .header .header_objects_20 {
+  position: absolute;
+  height: 3vh;
+  bottom: -50px;
+  right: -50px;
+  z-index: 9998;
+}
+
 body .header .header_texts {
   padding-top: 36vh;
 }
