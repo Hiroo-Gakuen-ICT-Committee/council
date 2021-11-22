@@ -135,6 +135,21 @@ body .header .header_objects_17 {
   left: calc(89vw + 270px);
 }
 
+body .header .header_objects_18 {
+  position: absolute;
+  height: 35vh;
+  top: calc(-4vh - 330px);
+  left: calc(3vw - 330px);
+}
+
+body .header .header_objects_19 {
+  position: absolute;
+  height: 3vh;
+  top: -50px;
+  right: -50px;
+  z-index: 999;
+}
+
 body .header .header_texts {
   padding-top: 36vh;
 }
@@ -163,4 +178,32 @@ body .header .header_texts h2 {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
+}
+
+body .header .first {
+  position: absolute;
+  font-size: 1.4vw;
+  top: 50vh;
+  width: 40vw;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: calc(100vw);
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body .header .second {
+  position: absolute;
+  font-size: 1.4vw;
+  top: 50vh;
+  width: 40vw;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: calc(100vw);
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
