@@ -68,11 +68,18 @@ anime({
 var object_18 = document.querySelector('.header_objects_18');
 anime({
   targets: object_18,
-  scale:[
-    { value: 15, duration: 2500, delay: 2500,},
-    { value: 0.01, duration: 2500, delay: 10000,}
-    ]
-  
+  scale: [{
+      value: 15,
+      duration: 2500,
+      delay: 2500,
+    },
+    {
+      value: 0.01,
+      duration: 2500,
+      delay: 10000,
+    }
+  ]
+
 });
 var object_14 = document.querySelector('.header_objects_14');
 anime({
@@ -126,32 +133,60 @@ anime({
 var header_texts = document.querySelector('.header_texts');
 anime({
   targets: header_texts,
-  translateX: [
-    { value: '-25vw', duration: 2400, delay: 4000,},
-    { value: '0vw', duration: 2400, delay: 8000,},
-    ]
+  translateX: [{
+      value: '-25vw',
+      duration: 2400,
+      delay: 4000,
+    },
+    {
+      value: '0vw',
+      duration: 2400,
+      delay: 8000,
+    },
+  ]
 });
 
 var first = document.querySelector('.first');
 anime({
   targets: first,
-  translateX: [
-    { value: '-50vw', duration: 2400, delay: 4000,},
-    ],
-    translateY: [
-      { value: '50vw', duration: 2400, delay: 10000,},
-      ]
+  translateX: [{
+    value: '-50vw',
+    duration: 2400,
+    delay: 4000,
+  }, ],
+  translateY: [{
+    value: '50vw',
+    duration: 2400,
+    delay: 10000,
+  }, ]
 });
 
 var second = document.querySelector('.second');
 anime({
   targets: second,
-  translateX: [
-    { value: '-50vw', duration: 2400, delay: 11000,},
-    ],
-    translateY: [
-      { value: '50vw', duration: 2400, delay: 14000,},
-      ]
+  translateX: [{
+    value: '-50vw',
+    duration: 2400,
+    delay: 11000,
+  }, ],
+  translateY: [{
+    value: '50vw',
+    duration: 2400,
+    delay: 14000,
+  }, ]
 });
 
+//リロード
+// ページをreloadする方法
+// reloadの基本的な使い方
+function doReload() {
 
+  // reloadメソッドによりページをリロード
+  window.location.reload();
+}
+
+window.addEventListener('load', function () {
+
+  // ページ表示完了した5秒後にリロード
+  setTimeout(doReload, 16000);
+});
