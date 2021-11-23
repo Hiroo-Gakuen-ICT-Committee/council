@@ -180,10 +180,10 @@ body .header .header_texts h2 {
   text-align: center;
 }
 
-body .header .first {
+body .header .menu .first {
   position: absolute;
   font-size: 1.4vw;
-  top: 50vh;
+  top: 36vh;
   width: 40vw;
   text-align: center;
   -webkit-transform: translateY(-50%);
@@ -194,10 +194,38 @@ body .header .first {
   font-style: normal;
 }
 
-body .header .second {
+body .header .menu .member1 {
   position: absolute;
   font-size: 1.4vw;
-  top: 50vh;
+  top: 44vh;
+  width: 40vw;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: calc(100vw);
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body .header .menu .member2 {
+  position: absolute;
+  font-size: 1.4vw;
+  top: 52vh;
+  width: 40vw;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: calc(100vw);
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body .header .menu .schedule {
+  position: absolute;
+  font-size: 1.4vw;
+  top: 60vh;
   width: 40vw;
   text-align: center;
   -webkit-transform: translateY(-50%);

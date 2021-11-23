@@ -69,16 +69,10 @@ var object_18 = document.querySelector('.header_objects_18');
 anime({
   targets: object_18,
   scale: [{
-      value: 15,
-      duration: 2500,
-      delay: 2500,
-    },
-    {
-      value: 0.01,
-      duration: 2500,
-      delay: 10000,
-    }
-  ]
+    value: 15,
+    duration: 2500,
+    delay: 2500,
+  }, ]
 
 });
 var object_14 = document.querySelector('.header_objects_14');
@@ -134,16 +128,10 @@ var header_texts = document.querySelector('.header_texts');
 anime({
   targets: header_texts,
   translateX: [{
-      value: '-25vw',
-      duration: 2400,
-      delay: 4000,
-    },
-    {
-      value: '0vw',
-      duration: 2400,
-      delay: 8000,
-    },
-  ]
+    value: '-25vw',
+    duration: 2400,
+    delay: 4000,
+  }, ]
 });
 
 var first = document.querySelector('.first');
@@ -153,40 +141,32 @@ anime({
     value: '-50vw',
     duration: 2400,
     delay: 4000,
-  }, ],
-  translateY: [{
-    value: '50vw',
-    duration: 2400,
-    delay: 10000,
   }, ]
 });
-
-var second = document.querySelector('.second');
+var member1 = document.querySelector('.member1');
 anime({
-  targets: second,
+  targets: member1,
   translateX: [{
     value: '-50vw',
     duration: 2400,
-    delay: 11000,
-  }, ],
-  translateY: [{
-    value: '50vw',
-    duration: 2400,
-    delay: 14000,
+    delay: 4000,
   }, ]
 });
-
-//リロード
-// ページをreloadする方法
-// reloadの基本的な使い方
-function doReload() {
-
-  // reloadメソッドによりページをリロード
-  window.location.reload();
-}
-
-window.addEventListener('load', function () {
-
-  // ページ表示完了した5秒後にリロード
-  setTimeout(doReload, 16000);
+var member2 = document.querySelector('.member2');
+anime({
+  targets: member2,
+  translateX: [{
+    value: '-50vw',
+    duration: 2400,
+    delay: 4000,
+  }, ]
+});
+var schedule = document.querySelector('.schedule');
+anime({
+  targets: schedule,
+  translateX: [{
+    value: '-50vw',
+    duration: 2400,
+    delay: 4000,
+  }, ]
 });

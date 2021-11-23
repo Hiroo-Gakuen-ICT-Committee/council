@@ -132,22 +132,24 @@ body {
       top: calc(70.8vh + 270px);
       left: calc(89vw + 270px);
     }
+
     .header_objects_18 {
       position: absolute;
       height: 35vh;
       top: calc(-4vh - 330px);
       left: calc(3vw - 330px);
     }
+
     .header_objects_19 {
       position: absolute;
       height: 3vh;
       top: -50px;
       right: -50px;
-      z-index:999;
+      z-index: 999;
     }
 
 
-    
+
 
     .header_texts {
       padding-top: 36vh;
@@ -181,31 +183,67 @@ body {
       }
 
     }
-    .first{
-      position: absolute;
-      font-size: 1.4vw;
-      top: 50vh;
-    width: 40vw;
-    text-align: center;
-    transform: translateY(-50%);
-    left: calc(100vw);
-    font-family: fot-tsukubrdgothic-std,
+
+    .menu {
+
+      .first {
+        position: absolute;
+        font-size: 1.4vw;
+        top: 36vh;
+        width: 40vw;
+        text-align: center;
+        transform: translateY(-50%);
+        left: calc(100vw);
+        font-family: fot-tsukubrdgothic-std,
           sans-serif;
         font-weight: 700;
         font-style: normal;
-    }
-    .second{
-      position: absolute;
-      font-size: 1.4vw;
-      top: 50vh;
-    width: 40vw;
-    text-align: center;
-    transform: translateY(-50%);
-    left: calc(100vw);
-    font-family: fot-tsukubrdgothic-std,
+      }
+
+      .member1 {
+        position: absolute;
+        font-size: 1.4vw;
+        top: 44vh;
+        width: 40vw;
+        text-align: center;
+        transform: translateY(-50%);
+        left: calc(100vw);
+        font-family: fot-tsukubrdgothic-std,
           sans-serif;
         font-weight: 700;
         font-style: normal;
+      }
+
+      .member2 {
+        position: absolute;
+        font-size: 1.4vw;
+        top: 52vh;
+        width: 40vw;
+        text-align: center;
+        transform: translateY(-50%);
+        left: calc(100vw);
+        font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .schedule {
+        position: absolute;
+        font-size: 1.4vw;
+        top: 60vh;
+        width: 40vw;
+        text-align: center;
+        transform: translateY(-50%);
+        left: calc(100vw);
+        font-family: fot-tsukubrdgothic-std,
+          sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
     }
+
+
+
   }
 }
