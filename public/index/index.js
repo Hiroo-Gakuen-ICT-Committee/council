@@ -70,12 +70,12 @@ anime({
   targets: object_18,
   scale: [{
       value: 15,
-      duration: 2500,
+      duration: 2000,
       delay: 2500,
     },
     {
       value: 0.01,
-      duration: 2500,
+      duration: 2000,
       delay: 10000,
     }
   ]
@@ -174,19 +174,4 @@ anime({
     duration: 2400,
     delay: 14000,
   }, ]
-});
-
-//リロード
-// ページをreloadする方法
-// reloadの基本的な使い方
-function doReload() {
-
-  // reloadメソッドによりページをリロード
-  window.location.reload();
-}
-
-window.addEventListener('load', function () {
-
-  // ページ表示完了した5秒後にリロード
-  setTimeout(doReload, 16000);
 });
