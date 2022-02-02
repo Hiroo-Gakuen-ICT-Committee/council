@@ -1,0 +1,27 @@
+body {
+  background-color: #FBF58C;
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body h1 {
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 7vh;
+}
+
+body h2 {
+  font-size: 1.5vw;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+body .link {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+body .link a {
+  font-size: 1.5vw;
+}

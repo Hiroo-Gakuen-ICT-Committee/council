@@ -130,7 +130,7 @@ anime({
   translateX: [{
     value: '-25vw',
     duration: 2400,
-    delay: 4000,
+    delay: 3600,
   }, ]
 });
 
@@ -140,7 +140,7 @@ anime({
   translateX: [{
     value: '-50vw',
     duration: 2400,
-    delay: 4000,
+    delay: 3600,
   }, ]
 });
 var member1 = document.querySelector('.member1');
@@ -149,7 +149,7 @@ anime({
   translateX: [{
     value: '-50vw',
     duration: 2400,
-    delay: 4000,
+    delay: 3600,
   }, ]
 });
 var member2 = document.querySelector('.member2');
@@ -158,7 +158,7 @@ anime({
   translateX: [{
     value: '-50vw',
     duration: 2400,
-    delay: 4000,
+    delay: 3600,
   }, ]
 });
 var schedule = document.querySelector('.schedule');
@@ -167,6 +167,6 @@ anime({
   translateX: [{
     value: '-50vw',
     duration: 2400,
-    delay: 4000,
+    delay: 3600,
   }, ]
 });

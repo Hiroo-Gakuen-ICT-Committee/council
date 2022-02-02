@@ -1,0 +1,29 @@
+body {
+  background-color: #FBF58C;
+  font-family: fot-tsukubrdgothic-std,
+    sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  h1 {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 7vh;
+  }
+
+  .img {
+    margin-top: 7vh;
+
+    .img1 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6vh;
+
+      img {
+        height: 40vh;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+      }
+    }
+  }
+}

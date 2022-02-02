@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/destyle.css">
+  <link rel="stylesheet" href="/public/member/member.css">
+  <title>中学生徒会選挙ー立候補者の紹介</title>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+
+  <script>
+    (function (d) {
+      var config = {
+          kitId: 'dxx7hro',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || a && a != "complete" && a != "loaded") return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config)
+        } catch (e) {}
+      };
+      s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+</head>
+<body>
+  <h1>立候補者の紹介</h1>
+  <div class="img">
+    <div class="img1">
+      <img src="/public/member/images/1.png">
+      <img src="/public/member/images/2.png">
+      <img src="/public/member/images/3.png">
+      <img src="/public/member/images/4.png">
+      <img src="/public/member/images/5.png">
+    </div>
+    <div class="img1">
+      <img src="/public/member/images/6.png">
+      <img src="/public/member/images/7.png">
+      <img src="/public/member/images/8.png">
+      <img src="/public/member/images/9.png">
+      <img src="/public/member/images/10.png">
+    </div>
+    <div class="img1">
+      <img src="/public/member/images/11.png">
+      <img src="/public/member/images/12.png">
+      <img src="/public/member/images/13.png">
+      <img src="/public/member/images/14.png">
+      <img src="/public/member/images/15.png">
+    </div>
+    <div class="img1">
+      <img src="/public/member/images/16.png">
+      <img src="/public/member/images/17.png">
+      <img src="/public/member/images/18.png">
+      <img src="/public/member/images/19.png">
+    </div>
+  </div>
+  <script src="/public/member/member.js"></script>
+</body>
+</html>
