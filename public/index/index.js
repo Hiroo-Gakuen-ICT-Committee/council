@@ -69,7 +69,7 @@ var object_18 = document.querySelector('.header_objects_18');
 anime({
   targets: object_18,
   scale: [{
-    value: 15,
+    value: 20,
     duration: 2500,
     delay: 2500,
   }, ]
@@ -123,49 +123,29 @@ anime({
   scale: 15,
   delay: 100
 });
+var video = document.querySelector('.video');
+anime({
+  targets: video,
+  opacity: [{
+      value: '0',
+      duration: 0,
+      delay: 0,
+      easing: 'linear'
+    },
+    {
+      value: '1',
+      duration: 600,
+      delay: 3600,
+      easing: 'linear'
+    },
+  ],
+});
 
 var header_texts = document.querySelector('.header_texts');
 anime({
   targets: header_texts,
   translateX: [{
-    value: '-25vw',
-    duration: 2400,
-    delay: 3600,
-  }, ]
-});
-
-var first = document.querySelector('.first');
-anime({
-  targets: first,
-  translateX: [{
-    value: '-50vw',
-    duration: 2400,
-    delay: 3600,
-  }, ]
-});
-var member1 = document.querySelector('.member1');
-anime({
-  targets: member1,
-  translateX: [{
-    value: '-50vw',
-    duration: 2400,
-    delay: 3600,
-  }, ]
-});
-var member2 = document.querySelector('.member2');
-anime({
-  targets: member2,
-  translateX: [{
-    value: '-50vw',
-    duration: 2400,
-    delay: 3600,
-  }, ]
-});
-var schedule = document.querySelector('.schedule');
-anime({
-  targets: schedule,
-  translateX: [{
-    value: '-50vw',
+    value: '-30vw',
     duration: 2400,
     delay: 3600,
   }, ]

@@ -180,58 +180,13 @@ body .header .header_texts h2 {
   text-align: center;
 }
 
-body .header .menu .first {
+body .header iframe {
   position: absolute;
-  font-size: 1.4vw;
-  top: 36vh;
-  width: 40vw;
-  text-align: center;
+  top: 51%;
+  right: 10vw;
+  transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: calc(100vw);
-  font-family: fot-tsukubrdgothic-std, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-body .header .menu .member1 {
-  position: absolute;
-  font-size: 1.4vw;
-  top: 44vh;
-  width: 40vw;
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: calc(100vw);
-  font-family: fot-tsukubrdgothic-std, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-body .header .menu .member2 {
-  position: absolute;
-  font-size: 1.4vw;
-  top: 52vh;
-  width: 40vw;
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: calc(100vw);
-  font-family: fot-tsukubrdgothic-std, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-body .header .menu .schedule {
-  position: absolute;
-  font-size: 1.4vw;
-  top: 60vh;
-  width: 40vw;
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: calc(100vw);
-  font-family: fot-tsukubrdgothic-std, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  -ms-transform: translateY(-50%);
+  width: 48vw;
+  height: 27vw;
 }
