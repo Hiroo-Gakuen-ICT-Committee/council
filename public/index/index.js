@@ -108,6 +108,6 @@ anime({
 var object_2 = document.querySelector('.header_objects_2');
 anime({
   targets: object_2,
-  scale: 15,
+  scale: 14,
   delay: 100
 });

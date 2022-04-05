@@ -2,7 +2,7 @@ body {
   font-family: fot-tsukubrdgothic-std, sans-serif;
   font-weight: 400;
   font-style: normal;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body .header {
@@ -163,4 +163,115 @@ body .header .header_texts h2 {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
+}
+
+body .content1 {
+  height: 100vh;
+  padding-top: 14vh;
+}
+
+body .content1 h1 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+body .content1 h1 span {
+  color: #588fd6;
+  border-bottom: #588fd6 solid 2.5px;
+  padding-bottom: 0px;
+}
+
+body .content1 h3 {
+  width: 40vw;
+  font-size: 1.2vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13vh;
+  line-height: 2.3vw;
+  font-weight: 700;
+}
+
+body .content1 .images {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+body .content1 .images img {
+  width: 12vw;
+}
+
+body .content1 .images .human1 {
+  margin-right: 18vw;
+}
+
+body .content1 .images .human2 {
+  margin-left: 18vw;
+}
+
+body .content1 .images .about {
+  margin-bottom: 5vh;
+}
+
+body .content1 .images .about:hover {
+  color: #FFF;
+  width: 12vw;
+}
+
+body .content2 {
+  height: 100vh;
+  background-color: #fbf58c;
+  padding-top: 18vh;
+}
+
+body .content2 h1 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+body .content2 h1 span {
+  color: #fa5a8a;
+  border-bottom: #fa5a8a solid 2.5px;
+  padding-bottom: 0px;
+}
+
+body .content2 h3 {
+  width: 40vw;
+  font-size: 1.2vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13vh;
+  line-height: 2.3vw;
+  font-weight: 700;
+}
+
+body .content2 .images {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+body .content2 .images img {
+  width: 12vw;
+}
+
+body .content2 .images .human1 {
+  margin-right: 18vw;
+}
+
+body .content2 .images .human2 {
+  margin-left: 18vw;
+}
+
+body .content2 .images .about {
+  margin-bottom: 5vh;
+}
+
+body .content2 .images .about:hover {
+  color: #FFF;
+  width: 12vw;
 }
