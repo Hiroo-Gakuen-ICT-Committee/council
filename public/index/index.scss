@@ -170,8 +170,8 @@ body {
   }
 
   .content1 {
-    height: 100vh;
     padding-top: 14vh;
+    padding-bottom: 7vh;
 
     h1 {
       font-size: 2.5vw;
@@ -233,9 +233,10 @@ body {
   }
 
   .content2 {
-    height: 100vh;
     background-color: #fbf58c;
     padding-top: 14vh;
+    padding-bottom: 7vh;
+
     text-align: center;
 
 
@@ -276,6 +277,69 @@ body {
       }
 
       .works_botton {
+        margin-bottom: 7vh;
+        width: 12vw;
+        transition: 0.3s;
+
+        &:hover {
+          fill: #6764e2;
+
+          .cls-1 {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .content3 {
+    padding-top: 14vh;
+    padding-bottom: 7vh;
+
+    h1 {
+      font-size: 2.5vw;
+      font-weight: 700;
+      text-align: center;
+
+
+      span {
+        color: #6be8da;
+        border-bottom: #6be8da solid 2.5px;
+        padding-bottom: 0px;
+        margin-right: 5px;
+      }
+    }
+
+    h3 {
+      width: 40vw;
+      font-size: 1.2vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 13vh;
+      line-height: 2.3vw;
+      font-weight: 700;
+
+    }
+
+    .images {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 1vh;
+
+      img {
+        width: 12vw;
+      }
+
+      .human1 {
+        margin-right: 18vw;
+      }
+
+      .human2 {
+        margin-left: 18vw;
+      }
+
+      .about {
         margin-bottom: 7vh;
         width: 12vw;
         transition: 0.3s;
