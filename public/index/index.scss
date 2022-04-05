@@ -183,6 +183,7 @@ body {
         color: #588fd6;
         border-bottom: #588fd6 solid 2.5px;
         padding-bottom: 0px;
+        margin-right: 5px;
       }
     }
 
@@ -216,11 +217,16 @@ body {
       }
 
       .about {
-        margin-bottom: 5vh;
+        margin-bottom: 7vh;
+        width: 12vw;
+        transition: 0.3s;
 
         &:hover {
-          color: #FFF;
-          width: 12vw;
+          fill: #6764e2;
+
+          .cls-1 {
+            fill: #fff;
+          }
         }
       }
     }
@@ -229,7 +235,8 @@ body {
   .content2 {
     height: 100vh;
     background-color: #fbf58c;
-    padding-top: 18vh;
+    padding-top: 14vh;
+    text-align: center;
 
 
     h1 {
@@ -241,44 +248,44 @@ body {
         color: #fa5a8a;
         border-bottom: #fa5a8a solid 2.5px;
         padding-bottom: 0px;
+        margin-right: 5px;
       }
     }
 
-    h3 {
-      width: 40vw;
-      font-size: 1.2vw;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 13vh;
-      line-height: 2.3vw;
-      font-weight: 700;
-
+    .works {
+      width: 58vw;
+      margin-top: 15vh;
     }
 
     .images {
       margin-left: auto;
       margin-right: auto;
       text-align: center;
-      margin-top: 1vh;
+      margin-top: 3vh;
 
       img {
-        width: 12vw;
+        width: 13vw;
       }
 
       .human1 {
-        margin-right: 18vw;
+        margin-right: 16vw;
       }
 
       .human2 {
-        margin-left: 18vw;
+        margin-left: 16vw;
       }
 
-      .about {
-        margin-bottom: 5vh;
+      .works_botton {
+        margin-bottom: 7vh;
+        width: 12vw;
+        transition: 0.3s;
 
         &:hover {
-          color: #FFF;
-          width: 12vw;
+          fill: #6764e2;
+
+          .cls-1 {
+            fill: #fff;
+          }
         }
       }
     }
